@@ -6,13 +6,6 @@
 
 </div>
 
-## About
-
-[**📚 Read this to setup debugging for IDEs! 📚**][debugging]
-
-
-[debugging]: https://tauri.app/develop/debug/
-
 ## 🚴 Usage
 
 ### 🐑 Use `cargo generate` to Clone this Template
@@ -27,5 +20,10 @@ cd my-project
 ### ✋or
 
 ### 🦀 Add this repo as Costom Template in [RustRover🚀](https://www.jetbrains.com/help/rust/rust-project-templates.html) 
-
 ![f](https://resources.jetbrains.com/help/img/idea/2024.2/rust_new_project_cargogenerate.png)
+
+## Run & Debugging
+
+[**📚 Read this to setup debugging for IDEs! 📚**][debugging]
+
+[debugging]: https://tauri.app/develop/debug/
