@@ -1,0 +1,13 @@
+[template]
+exclude = ["/src"]
+ignore = [
+    ".cargo",
+    ".next",
+    "node_modules",
+    "out",
+    "target",
+    "/src-tauri/target",
+    "Cargo.lock",
+    "cargo-generate.toml",
+    ".git"
+]
