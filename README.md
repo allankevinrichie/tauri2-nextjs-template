@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This is a template for starting  with  backend.
 
-## Getting Started
+<div align="center">
 
-First, run the development server:
+  <h1><code>wasm-pack-template</code></h1>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+<strong>A template for kick starting a [Tauri-2](https://tauri.app) project with [Next.js](https://nextjs.org) frontend.</strong>
+
+  <p>
+    <a href="https://travis-ci.org/rustwasm/wasm-pack-template"><img src="https://img.shields.io/travis/rustwasm/wasm-pack-template.svg?style=flat-square" alt="Build Status" /></a>
+  </p>
+
+  <h3>
+    <a href="https://rustwasm.github.io/docs/wasm-pack/tutorials/npm-browser-packages/index.html">Tutorial</a>
+    <span> | </span>
+    <a href="https://discordapp.com/channels/442252698964721669/443151097398296587">Chat</a>
+  </h3>
+
+<sub>Built with 🦀🕸 by <a href="https://rustwasm.github.io/">The Rust and WebAssembly Working Group</a></sub>
+</div>
+
+## About
+
+[**📚 Read this to setup debugging for IDEs! 📚**][debugging]
+
+
+[debugging]: https://tauri.app/develop/debug/
+
+## 🚴 Usage
+
+### 🐑 Use `cargo generate` to Clone this Template
+
+```
+cargo generate --git https://github.com/allankevinrichie/tauri2-nextjs-template.git --name my-project
+cd my-project
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+[Learn more about `cargo generate` here.](https://github.com/ashleygwilliams/cargo-generate)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### ✋or
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 🦀 Add this repo as Costom Template in [RustRover🚀](https://www.jetbrains.com/help/rust/rust-project-templates.html) 
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+![f](https://resources.jetbrains.com/help/img/idea/2024.2/rust_new_project_cargogenerate.png)
