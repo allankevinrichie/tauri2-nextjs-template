@@ -12,7 +12,7 @@
   "app": {
     "windows": [
       {
-        "title": "hello-tauri",
+        "title": "{{project-name}}",
         "width": 800,
         "height": 600,
         "resizable": true,
