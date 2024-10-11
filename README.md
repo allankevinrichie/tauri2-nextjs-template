@@ -19,7 +19,7 @@ cd my-project
 
 ### ✋or
 
-### 🦀 Add this repo as Costom Template in [RustRover🚀](https://www.jetbrains.com/help/rust/rust-project-templates.html) 
+### 🦀 Add this repo as a Costom Template in [RustRover🚀](https://www.jetbrains.com/help/rust/rust-project-templates.html) 
 ![f](https://resources.jetbrains.com/help/img/idea/2024.2/rust_new_project_cargogenerate.png)
 
 ## Run & Debugging
